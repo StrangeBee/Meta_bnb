@@ -10,15 +10,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div >
-      <div className='m-1'>
+    <div className='overscroll-contain' >
+     
         <NavBar />
 
         <Hero />
-      </div>
 
-      <section className=' md:pt-6'>
-        <div className=' bg-bg-color flex justify-between px-16 '>
+      <section className=' bg-bg-color'>
+        <div  className='container flex flex-col-reverse md:flex-row md:justify-between items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0'>
             <img src={MBT } alt="" />
             <img src={META } alt="" />
             <img src={OpenS } alt="" />

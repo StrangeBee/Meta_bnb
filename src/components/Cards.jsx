@@ -6,9 +6,9 @@ function Cards() {
   return (
     <section>
 
-      <div id='card' className='grid grid-cols-1 md:grid-cols-2 lg:flex justify-around mx-20'>
+      <div id='card' className='container flex flex-col md:flex-row items-center  mx-auto mt-10 space-y-0 md:space-y-0 sm:gap-6'>
 
-        <div className='border-2 border-card-border rounded-lg w-80  my-10  lg:mx-2'>
+        <div className='border-2 border-card-border rounded-lg    lg:mx-2'>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -20,7 +20,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2 '>
+        <div className='border-2 border-card-border rounded-lg my-10 lg:mx-2 '>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -32,7 +32,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2'>
+        <div className='border-2 border-card-border rounded-lg  my-10 lg:mx-2'>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -44,7 +44,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2 '>
+        <div className='border-2 border-card-border rounded-lg  lg:mx-2 '>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -56,9 +56,11 @@ function Cards() {
         </div>
         
       </div>
-      <div id='card' className='grid grid-cols-1 md:grid-cols-2 lg:flex justify-around mx-20'>
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2 '>
+
+      <div id='card' className=' container flex flex-col md:flex-row items-center  mx-auto sm:my-6 space-y-0 md:space-y-0 sm:gap-6'>
+
+        <div className='border-2 border-card-border rounded-lg  lg:mx-2'>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -70,7 +72,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2 '>
+        <div className='border-2 border-card-border rounded-lg my-10 lg:mx-2 '>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -82,7 +84,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2'>
+        <div className='border-2 border-card-border rounded-lg  my-10 lg:mx-2'>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>
@@ -94,7 +96,7 @@ function Cards() {
         </div>
 
 
-        <div className='border-2 border-card-border rounded-lg w-80 my-10 lg:mx-2 '>
+        <div className='border-2 border-card-border rounded-lg my-10 lg:mx-2 '>
           <div className='px-5 py-4'>
           <img src={BlueR } alt="" />
              <div>

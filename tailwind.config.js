@@ -2,12 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1px',
-    },
+  
     colors: {
       'card-border' : '#D7D7D7',
       'bg-color' : '#A02279',
