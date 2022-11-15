@@ -20,7 +20,7 @@ export default function Footer() {
               <img src={Copy} alt="" className='pt-6 w-26'/>
             </div>
 
-            <div className='flex gap-24 p-4  md:mb-6 lg:gap-48 lg:pb-16'>
+            <div className='flex gap-8 p-4  md:mb-6 lg:gap-48 lg:pb-16'>
               <div className='leading-10'>
                 <h1 className='font-bold'>Community</h1>
                 <ul>
