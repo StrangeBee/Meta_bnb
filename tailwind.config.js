@@ -2,7 +2,6 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-  
     colors: {
       'card-border' : '#D7D7D7',
       'bg-color' : '#A02279',
@@ -14,6 +13,11 @@ module.exports = {
 
     },
     extend: {
+      screens: {
+        lg: '1025px',
+      },
+
+
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         redrose: ['RedRose', 'cursive'],

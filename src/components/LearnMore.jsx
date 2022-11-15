@@ -14,7 +14,7 @@ export default function LearnMore() {
             Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services
             </p>
             <div className='flex justify-center md:justify-start'>
-              <Button className='p-1 px-6 pt-1 text-c bg-bg-white rounded-xl baseline hover:opacity-80'>
+              <Button className='p-1 px-6 pt-1 text-bg-color bg-card-border rounded-lg baseline hover:opacity-80'>
                 Learn More
               </Button>
             </div>

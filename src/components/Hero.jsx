@@ -20,8 +20,9 @@ export default function Hero() {
               <Form.Control
                 placeholder="Search for location"
                 aria-label="Search for location"
+                className='border-bg-gray  border-4 rounded-l-lg'
               />
-              <Button className='p-1 px-6 pt-1 text-text-white bg-bg-color rounded-xl baseline hover:opacity-80'>
+              <Button className='p-1 px-6 pt-1 text-text-white bg-bg-color rounded-r baseline hover:opacity-80'>
                 Button
               </Button>
             </InputGroup>
