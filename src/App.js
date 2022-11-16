@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='overscroll-contain' >
+    <div className='font-redrose' >
      
         <NavBar />
 

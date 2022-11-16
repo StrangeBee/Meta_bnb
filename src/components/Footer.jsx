@@ -7,7 +7,7 @@ import Copy from '../icons/Copyright.svg';
 
 export default function Footer() {
   return (
-    <section className=' bg-bg-black text-text-white'>
+    <section className=' bg-bg-black text-text-white font-redrose'>
         <div className='container flex flex-col-reverse md:flex-row items-center  mx-auto  space-y-0 md:space-y-0 md:justify-between md:mx-10 '>      
 
             <div  className=' flex flex-col mb-24 space-y-12 md:w-36 md:m-12 md:mb-2 lg:m-24'>

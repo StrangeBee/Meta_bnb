@@ -16,11 +16,10 @@ module.exports = {
       screens: {
         lg: '1025px',
       },
-
-
+    
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        redrose: ['RedRose', 'cursive'],
+        redrose: ['Red Rose', 'cursive'],
       },
     },
   },
