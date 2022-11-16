@@ -49,8 +49,18 @@
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+.card {
+  display: flex;
+}
+
+.card div {
+  font-size: small;
+}
+
 
 @font-face {
   font-family: 'RedRose';
   src: url('../public/fonts/RedRose.ttf') format('truetype');
 }
+
+

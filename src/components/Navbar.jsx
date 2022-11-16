@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <div className='shadow-md md:shadow-none w-full    fixed md:absolute top-0  font-redrose'>
         <div className='md:flex items-center justify-between bg-bg-gray md:bg-opacity-0 py-4 md:px-10 px-7'>
-          <div className='pt-2'>
+          <div className='pt-2 md:flex-auto'>
           <Link to='/'><img src={Logo} alt="icon" /></Link>
           </div>
 
